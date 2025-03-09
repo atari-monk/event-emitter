@@ -1,4 +1,4 @@
-type Listener<T> = (payload: T) => void
+export type Listener<T> = (payload: T) => void
 
 export class EventEmitter<Events extends Record<symbol, any>> {
   private listeners: Map<symbol, Set<Listener<any>>> = new Map()

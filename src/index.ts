@@ -1,1 +1,1 @@
-export {EventEmitter} from './EventEmitter'
+export {Listener, EventEmitter} from './EventEmitter'
